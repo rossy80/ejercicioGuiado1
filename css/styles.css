@@ -1,0 +1,97 @@
+/*Global*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.row:before .row:after{
+content:"";
+display: table;
+}
+.row:after{
+  clear: both;
+}
+
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left;
+}
+
+.col-1 {
+  /* (1/12)*100 */
+  width: 8.333%;
+  background: red;
+}
+
+.col-2 {
+  /* (2/12)*100 */
+  width: 16.666%;
+  background: green;
+}
+
+.col-3 {
+  /* (3/12)*100 */
+  width: 25%;
+  background: yellow;
+}
+
+.col-4 {
+  /* (4/12)*100 */
+  width: 33.333%;
+  background: purple;
+}
+
+.col-5 {
+  /* (5/12)*100 */
+  width: 41.666%;
+  background: gray
+}
+
+.col-6 {
+  /* (6/12)*100 */
+  width: 50%;
+  background: pink;
+}
+
+.col-7 {
+  /* (7/12)*100 */
+  width: 58.333%;
+  background: black;
+  color: white;
+}
+
+.col-8 {
+  /* (8/12)*100 */
+  width: 66.666%;
+  background: blue;
+}
+
+.col-9 {
+  /* (9/12)*100 */
+  width: 75%;
+  background: magenta;
+}
+
+.col-10 {
+  /* (10/12)*100 */
+  width: 83.333%;
+  background: skyblue;
+}
+
+.col-11 {
+  /* (11/12)*100 */
+  width: 91.666%;
+  background: orange;
+}
+
+.col-12 {
+  /* (12/12)*100 */
+  width: 100%;
+  background: brown;
+}
